@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101410">
+  <meta name="description" content="A premium football arcade: play 200 original skill challenges inspired by Kylian Mbappé's speed, finishing and flair.">
+  <title>MBAPPÉ: THE GAME — Football, at full speed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Mbappé The Game home">
+        <span class="brand-mark">M<span>+</span></span>
+        <span class="brand-copy">THE <b>GAME</b><small>FOOTBALL AT FULL SPEED</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#arcade">Arcade</a>
+        <a href="#story">The story</a>
+      </nav>
+      <a class="nav-cta" href="#arcade">PLAY NOW <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-noise"></div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> THE ULTIMATE FOOTBALL ARCADE</div>
+          <h1 id="hero-title">MADE FOR<br><span>THE MOMENT.</span></h1>
+          <p class="hero-lede">One player. A hundred ways to make it count. Step into the boots of football's most explosive finisher.</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#arcade">ENTER THE ARCADE <span>↘</span></a>
+            <a class="text-link" href="#story">MEET THE PLAYER <span>→</span></a>
+          </div>
+          <div class="hero-meta"><span>01 / 05</span><i></i><span>THE FINISHER'S EDITION</span></div>
+        </div>
+        <div class="hero-art" aria-label="Stylized football and speed-line illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="speed-lines"><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="hero-number">09</div>
+          <div class="hero-ball"><span class="ball-panel panel-a"></span><span class="ball-panel panel-b"></span><span class="ball-panel panel-c"></span></div>
+          <div class="hero-stamp">PACE<br><b>UNLOCKED</b></div>
+          <div class="hero-caption">THE GAME<br><span>CHANGES IN A SECOND.</span></div>
+        </div>
+        <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>48°51′ N — PARIS, FR</span></div>
+      </section>
+
+      <section class="facts section-pad" id="story" aria-labelledby="facts-title">
+        <div class="section-heading facts-heading">
+          <div><span class="eyebrow">THE PLAYER FILE / VERIFIED FACTS</span><h2 id="facts-title">THE NUMBERS<br>DON'T LIE.</h2></div>
+          <p>GOAT is a debate. These moments are history. A quick look at the milestones behind the myth.</p>
+        </div>
+        <div class="fact-grid">
+          <article class="fact-card fact-feature"><span class="fact-index">01 — WORLD CHAMPION</span><strong>19<span>YRS</span></strong><h3>A final to remember.</h3><p>At 19, Mbappé scored in France's 4–2 win over Croatia in the 2018 World Cup final.</p><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2018/articles/france-croatia-final-kylian-mbappe-record" target="_blank" rel="noreferrer">FIFA · 2018 FINAL ↗</a></article>
+          <article class="fact-card"><span class="fact-index">02 — GOLDEN BOOT</span><strong>8<span>GOALS</span></strong><h3>Top scorer, 2022.</h3><p>He won the 2022 World Cup Golden Boot with eight goals in the tournament.</p><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2022/articles/kylian-mbappe-france-final-records" target="_blank" rel="noreferrer">FIFA · QATAR 2022 ↗</a></article>
+          <article class="fact-card"><span class="fact-index">03 — THE FINAL</span><strong>3<span>GOALS</span></strong><h3>A hat-trick on the biggest stage.</h3><p>Mbappé scored three times in the 2022 final, becoming only the second player to score a World Cup final hat-trick.</p><a href="https://www.fifa.com/en/tournaments/mens/worldcup/2022/articles/kylian-mbappe-france-final-records" target="_blank" rel="noreferrer">FIFA · MATCH RECORD ↗</a></article>
+          <article class="fact-card"><span class="fact-index">04 — CLUB CAREER</span><strong>2024<span>→</span></strong><h3>A new chapter in Madrid.</h3><p>Real Madrid announced Mbappé as a first-team player in 2024 after his time at Monaco and Paris Saint-Germain.</p><a href="https://www.realmadrid.com/en-US/football/first-team/players/kylian-mbappe" target="_blank" rel="noreferrer">REAL MADRID · PLAYER PROFILE ↗</a></article>
+        </div>
+        <p class="fact-note">Facts checked against FIFA and Real Madrid sources. “Greatest of all time” is a fan debate—not an objective stat.</p>
+      </section>
+
+      <section class="arcade section-pad" id="arcade" aria-labelledby="arcade-title">
+        <div class="section-heading arcade-heading">
+          <div><span class="eyebrow">THE ARCADE / 200 CHALLENGES</span><h2 id="arcade-title">YOUR MOVE.</h2></div>
+          <div class="arcade-record"><span>PERSONAL BEST</span><b id="best-score">000</b><small>CAREER POINTS</small></div>
+        </div>
+        <div class="arcade-layout">
+          <section class="play-panel" aria-label="Playable football challenge">
+            <div class="play-panel-top"><div><span class="round-label"><i></i> NOW PLAYING</span><h3 id="current-title">THE OPENING WHISTLE</h3></div><span class="challenge-number" id="challenge-number">CHALLENGE 001</span></div>
+            <div class="game-stage">
+              <canvas id="game-canvas" aria-label="Interactive football challenge. Use your pointer or arrow keys as instructed below."></canvas>
+              <div class="stage-badge" id="stage-badge">READY WHEN YOU ARE</div>
+            </div>
+            <div class="game-controls">
+              <div class="game-instructions"><span class="control-icon" id="control-icon">⌖</span><div><b id="instruction-title">Pick your spot</b><span id="instruction-copy">Click a target inside the goal to take your shot.</span></div></div>
+              <button class="button button-lime start-button" id="start-button">KICK OFF <span>→</span></button>
+            </div>
+            <div class="game-status" aria-live="polite"><span id="status-message">Choose a challenge or kick off the opener.</span><span id="round-count">— / —</span></div>
+          </section>
+          <aside class="mission-panel" aria-label="Challenge selection">
+            <div class="mission-top"><div><span class="eyebrow">PICK YOUR CHALLENGE</span><h3>THE PLAYLIST <span id="mission-count">200</span></h3></div><span class="filter-icon">☷</span></div>
+            <label class="search-box"><span>⌕</span><input type="search" id="challenge-search" placeholder="Find a challenge..." aria-label="Search challenges"></label>
+            <div class="filter-row" role="group" aria-label="Filter challenges by game mode">
+              <button class="filter-chip selected" data-filter="all">ALL <span>200</span></button>
+              <button class="filter-chip" data-filter="penalty">FINISH</button>
+              <button class="filter-chip" data-filter="freekick">BEND</button>
+              <button class="filter-chip" data-filter="keeper">KEEP</button>
+              <button class="filter-chip" data-filter="dribble">PACE</button>
+              <button class="filter-chip" data-filter="target">PRECISION</button>
+            </div>
+            <div class="challenge-list" id="challenge-list" aria-live="polite"></div>
+            <button class="load-more" id="load-more">LOAD MORE CHALLENGES <span>↓</span></button>
+            <p class="playlist-foot">200 original variations · 5 ways to play<br>Progress saves on this device.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="closing section-pad">
+        <div class="closing-mark">K<span>.</span>M</div>
+        <div><span class="eyebrow">THE NEXT MOMENT IS YOURS</span><h2>PLAY AT<br><em>FULL SPEED.</em></h2></div>
+        <a class="button button-dark" href="#arcade">BACK TO THE ARCADE <span>↑</span></a>
+      </section>
+    </main>
+    <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">M<span>+</span></span><span class="brand-copy">THE <b>GAME</b><small>AN UNOFFICIAL FAN-MADE ARCADE</small></span></a><span>NOT AFFILIATED WITH KYLIAN MBAPPÉ, FIFA OR REAL MADRID.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  </div>
+</body>
+</html>
